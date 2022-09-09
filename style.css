@@ -2,78 +2,76 @@
 
 
     header {
-      position: absolute;
+      position: fixed;
       top: 0px;
       width:100%;
-  
-      height:2vw;
-      padding:25px 0px;
-  
-      display: flex;
-      justify-content: space-between;
-      align-items:conter;
-  
-      background-color:black;
-      opacity: 0.7;
-      z-index:5;
+      background-color: red;
     }
   }
-  
+  a:link {
+    color: white;
+    margin-right:2rem;
+    text-decoration: none;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: lightblue;
+    background-color: transparent;
+    text-decoration: none;
+  }
   #welcome-section{
     width:100%;
+    float: center;
     height:100vh;
-  
-    position:absolute;
-    top:10vw;
-    left: 0vw;
-    z-index:2;
+   
   }
-  
+  body{
+    background-color: black;
+  }
+
   #welcome-section h1{
-    text-align: left;
-    font-size: 3vw;
-    color: silver;
-  
-    position: absolute;
-    top: 5vw;
-    left:7vw;
-  }
-  
-  #welcome-section h2{
-    text-align: left;
-    font-size: 4vw;
-    color: white;
+    font-size: 6vw;
+    color: red;
   
     position: absolute;
     top: 10vw;
-    left:7vw;
+    left: 4vw;
+  }
+  
+  #welcome-section h2{
+    font-size: 4vw;
+    color: white;
+    left: 4vw;
+    position: absolute;
+    top: 20vw;
+
   } 
   
   header {
     position: fixed;
     top:0px;
     width: 100%;
-  
-    height: 19px;
-    padding:25px 0px;
-  
-      display: flex;
-      justify-content: space-between;
-      align-items:center;
-  
-      background-color:black;
-      opacity: 0.7;
-      z-index:5;
+    display: flex;
+    align-items:center;
+    color: white;
+    background-color:red;
+    
   }
-  header a { 
-    margin-right:2rem;
-    color: gray
-  
-    text-decoration: none;
-    z-index: 5;
-  }
-  
+ body {
+  display:block;
+  color: black;
+ }
   header a:hover{
     margin-right:2rem;
     color:white;
+  }
+  .project {
+    position: absolute;
+    height: 50;
+    width: 100%;
+    text-align: center;
+    bottom: 40%;
+    color: rgb(169, 0, 0);
+    background-color: orange;
   }
